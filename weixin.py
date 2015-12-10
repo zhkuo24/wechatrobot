@@ -10,4 +10,7 @@ def echo(message):
 @robot.text
 def echo(message):
     return message.content + '\n' + 'I Love You CuiCui' + "张阔\n" + time.strftime("%Y-%m-%d-%H:%M:%S %Z",time.localtime(time.time()))
+@robot.filter("a")
+def a():
+    return "正文为 a "
 robot.run()
