@@ -19,6 +19,6 @@ def echo(message):
 	#获取时间信息
 	tz = pytz.timezone('Asia/Shanghai')
 	time_current = datetime.datetime.now(tz).strftime('%Y-%m-%d %H:%M:%S')
-	return message.content + '\n' + 'I Love You CuiCui 来自WALL-E\n' + 'Time: ' + time_current
+	return message.content + '\n' + 'I Love You  来自WALL-E\n' + 'Time: ' + time_current
 
 robot.run()
