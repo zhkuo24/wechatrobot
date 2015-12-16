@@ -14,7 +14,7 @@ class GetWeather():
 	def __init__(self, city):
 		super(GetWeather, self).__init__()
 		self.cityname = city
-		self.key = 'd9b3201a8c8842a59e2dacb94f7fe12d'
+		self.key = 'b50ba365dd554fc887f14699a6e30584'
 		self.url = "https://api.heweather.com/x3/weather"
 
 	def getweatherinfo(self):
